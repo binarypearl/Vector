@@ -89,8 +89,8 @@ def main():
         time.sleep(2)
 
         robot.say_text("Alexa")
-        # And to give a little padding after saying Alexa so she responds.  Not sure why I don't have to do this 
-        # when Vector first starts speaking.
+        # Had to give a little padding after saying Alexa so she responds.  Not sure why I had to do this 
+        # here when I didn't have to when Vector first starts speaking at the beginning of the script.
         time.sleep(0.5)
         robot.say_text("Video game lights on")
     
